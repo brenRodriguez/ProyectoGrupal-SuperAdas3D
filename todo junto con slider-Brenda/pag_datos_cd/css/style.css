@@ -1,0 +1,723 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Abel', sans-serif;
+}
+
+
+/*----------------PRINCIPAL--------------------*/
+
+#fondoprincipal{
+	height:100%;
+	background-image:url(../img/fondo.png);
+	width:100%;
+	background-repeat:no-repeat;
+	padding:0;
+}
+.recomendado{
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+.recomendado img{
+	width:100%;
+	height: auto;
+}
+
+.artista{
+	font-size: 25px;
+}
+.grupo{
+	font-size:20px;
+}
+
+.general{
+	margin-top: 50px;
+	padding-bottom: 50px;
+	color:#FFFFFF;
+}
+.general img{
+	width: 1000%;
+	height: auto;
+}
+.general h3{
+	font-family: 'Rock It';
+	font-size: 20px;
+}
+.general h4{
+	font-family: 'Abel', sans-serif;
+	font-size: 22px;
+	padding: 0;
+}
+
+.general p{
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+}
+
+.abajo{
+	margin-top: 10px;
+	height: auto;
+}
+
+.abajo2{
+	margin-top:5px;
+	height:auto;
+
+}
+
+.abajo2 img{
+	width: 80%;
+	height: auto;
+
+}
+
+.espacio{
+	height: 70px;
+}
+
+.foto{
+	height: auto;
+	display: inline-block;
+}
+.pie{
+	height: 70px;
+}
+
+
+.pieAthumbnail{
+	color: #FFFFFF;
+}
+.pie2thumbnail{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.precio{
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs{
+	display: flex;
+	flex-direction: column;
+}
+.input{
+	text-align:end;
+	}
+.boton{
+	text-align:end;
+	margin-top: 12px;
+}
+.anadir{
+	background-color:#04A1A5;
+	color: #FFFFFF;
+	border: 0px;
+}
+
+.margen{
+	height: 247px;
+}
+.pie2{
+	height:90px;
+}
+.piegeneral{
+	margin-top: 10px;
+}
+
+.pie2thumbnail{
+	font-size: 20px;
+	color:#FFFFFF;
+}
+
+
+
+
+
+/*----------------SLIDER-----------------*/
+.row aside{
+	margin-left: 0px;
+	width: 100%;
+}
+
+aside{
+	background-color: #002245;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+
+.slider{
+    display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+
+.slider{
+	width: 100%;
+	margin:0px;
+}
+
+.contenido{
+	height: 340px;
+	background-color: #002245;
+	
+}
+
+
+.imagenes{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    padding-top: 40px;
+    margin-left: 140px;
+    margin-right:140px;
+    color: #FFFFFF;
+}
+
+
+/*figcaption {
+	display: flex;}	
+
+.pieslider{
+color:#FFFFFF;
+display: inline-block;
+margin-top: 13px;
+margin-left: 2px;
+}
+
+.pie2slider{color:#FFFFFF;
+display: inline-block;
+font-size: 25px;
+margin-left: 2px;
+}
+
+.cantidadslider{
+	margin-top: 5px;
+	margin-left: 88px;
+	margin-bottom: 5px;
+}
+
+
+.precio {
+	color:#FFFFFF;
+}
+
+.botonslider{
+	background-color:#04A1A5;
+	border: 0px; 
+	color: #FFFFFF;
+	margin-left: 61px;
+}
+
+.slider img{
+	width:100%;
+}*/
+
+/*******************************FOOTER**************************/
+.footer{
+	margin: 0;
+}
+
+footer {
+	background-color:#000000;
+	color: #FFFFFF;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+h4 {
+	padding-top: 50px;
+}
+
+.iconos{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+}
+
+
+/*--------------HEADER------------------*/
+
+.contenedorHeader{
+	background-image:url(../img/fondo-banner.png);
+	width: 100%;
+	height: 492px;
+	background-repeat:no-repeat;
+	font-size: 25px;
+}	
+.cuenta{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.registro{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: right;
+}
+
+.registrate{
+	margin-bottom: 40px;
+}
+.derecha{
+	/*margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 30px;*/
+	margin-top: 20px;
+	margin-right: 20px;
+	color: white;
+}
+
+.menuIzq{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 80px;
+}
+
+.home{
+	margin-right:20px;
+}
+
+.comprar{
+	margin-left: 40px;
+}
+.elegi{
+	display: inline-block;
+	margin-top: 80px;
+}
+
+.menu_bar{
+	display: none;
+}
+
+.menu_bar a span{
+	margin-right: 10px;
+}
+.navPrincipal{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	height: 210px;
+	position: relative;
+}
+.navPrincipal a{
+	text-decoration: none;
+	color: white;
+}
+
+.linkHome{
+	margin-right: 50px;
+}
+
+.logo{
+	margin-bottom: 150px;
+}
+.preLogo{
+	margin-right: 50px;
+}
+.postLogo{
+	margin-left: 60px;
+	margin-right: 10px;
+/*	position: relative;*/
+}
+
+.botonelegi{
+	padding: 0px;
+	border: 0px;
+	color: white;
+	text-decoration: none;
+	text-transform: none;
+/*	position: relative;
+*/
+}
+
+.botonelegi:hover .submenu{
+	display: block;
+}
+
+.submenu{
+	display: none;
+	position: absolute;
+}
+
+nav .submenu:hover .submenu{
+	display: block;
+}
+
+
+.frases{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.imagenizq{
+	margin-right: 45px;
+	margin-top: -30px;
+}
+
+.imagenderecha{
+	   margin-left: 50px;
+}
+
+
+
+/*
+-----------------------------------------formulario-----------------------------------------*/
+.contenedor{
+	width:100%;
+	background-color: black;
+	color:white;
+}
+
+.form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: -20px;
+	background-color: black;
+}
+
+.genero{
+	padding-left: 10px;
+	text-align: left;
+}
+.decada{
+	width: 60%;
+	padding-right: 10px;
+	text-align: left;
+}
+
+.origen{
+text-align: left;
+}
+
+.formato{
+	padding-right: 30px;
+	text-align: left;
+}
+
+.titulos {
+	color: white;
+	background-color: #04A1A5;
+	height: 40px;
+	text-align: center;
+}
+
+.filter{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/*medias querys-header-----------------------------*/
+
+/*@media screen and (max-width: 800px){
+
+.contenedor{
+	position: absolute;
+	left:200px;
+	}
+}*/
+
+/*@media screen and (max-width:450px){
+	.contenedorHeader{
+	background-image:url(../img/fondo-banner.png); 
+	width:100%;
+	height: 170px;
+	background-repeat:no-repeat;
+}
+	.registro{
+		display: none;
+	}
+	.menuIzq{
+		display:none;
+	}
+	.logo{
+		margin-top:-30px;
+		height: 115px;
+	}
+	.logo img{
+		height: 110px;
+		width: 90px;
+	}
+	.elegi{
+		display: none;
+	}
+	.frases{
+		display: none;
+	}*/
+
+
+
+/*media query principal------------------------*/
+@media screen and (max-width: 1500px){
+	.abajo{
+		display: block;
+	}
+	.abajo2{
+		display: none;
+	}
+	.general2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.contenedor{
+	position: absolute;
+	left:200px;
+	}
+
+	#fondoprincipal{
+	height:1000px;
+}
+
+	.recomendado{
+		padding: 0;
+	}
+	.general{
+		display: inline-block;
+		padding-bottom: 15px;
+	}
+	
+	.piegeneral{
+		margin-top: 3px;
+		height: auto;
+	}
+	.piegeneral p{
+	font-size: 20px;
+	color:#FFFFFF;
+	margin-bottom: 0;
+}
+.piegeneral .boton{
+	margin-top: 5px;
+}
+.texto{
+	height: auto;
+}
+.pie2thumbnail{
+	height:auto;
+}
+.abajo{
+	display: none;
+}
+.abajo2{
+	display:block;
+	height: auto;
+}
+.disco3{
+	height: auto;
+}
+.disco4{
+	height: auto;
+}
+aside{
+	display: none;
+}
+.footer{
+	margin: 0;
+}
+footer{	
+height: 120px;
+}
+
+footer h4{
+	padding-top: 20px;
+}
+}
+
+
+
+@media screen and (max-width: 400px){
+	.contenedorHeader{
+	background-image:url(../img/fondo-banner.png); 
+	width:100%;
+	height: 170px;
+	background-repeat:no-repeat;
+}
+	.registro{
+		display: none;
+	}
+	.menuIzq{
+		display:none;
+	}
+	.logo{
+		margin-top:-30px;
+		height: 115px;
+	}
+	.logo img{
+		height: 110px;
+		width: 90px;
+	}
+	.elegi{
+		display: none;
+	}
+	.frases{
+		display: none;
+	}
+
+#fondoprincipal{
+	height:100%;
+	background-image:url(../img/fondo.png);
+	background-size:2300px;
+	width:100%;
+	background-repeat:no-repeat;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.general{
+	display: none;
+}
+
+.inputs{
+	display:none;
+}
+.precio{
+	margin-top: -16px;
+}
+.artista{
+	font-size: 16px;
+	margin-left: 41px;
+}
+.grupo{
+	font-size: 12px;
+	margin-left: 62px;
+}
+.pie2thumbnail p{
+	font-size: 23px;
+	margin-left: 96px;
+}
+
+.arriba{
+	display:none;
+}
+
+.arriba3 button{
+	font-size: 12px;
+	display: flex;
+	justify-content: : flex-start;
+}
+.arriba3 input{
+	display: flex;
+	justify-content: flex-start;
+
+}
+.general2{
+	display: block;
+}
+.general2 p{
+	font-size: 20px;
+	margin:0;
+}
+.disco1{
+	padding: 0px;
+	font-size: 15px;
+}
+.disco1mobile{
+	padding: 0;
+}
+.interior{
+	margin-right: -7px;
+	margin-left: -7px;
+}
+
+.disco2{
+	padding: 0;
+	font-size: 15px;
+}
+
+.arriba3{
+	height: 180px;
+	margin-left: 1px;
+}
+
+.margen{
+	height:300px;
+}
+
+.abajo2{
+	display: none;
+}
+
+.footer{
+	margin: 0;
+	margin-left: 0px;
+	margin-right: -15px;
+}
+footer{
+	height: 50px;
+}
+
+
+footer h4{
+	padding-top: 4px;
+	font-size: 10px;
+}
+
+.iconos .fa{
+	font-size: 1em;
+}
+}
+
+
+
+
+
+/*---------------------------------------medias querys------------------------------*/
+
+
+/*.menu_bar{
+	display:block;
+}	
+
+.menu_bar .bt-menu{
+	display: block;
+	color: white;
+}
+
+.cuenta{
+	display:none;
+}
+
+.lupa{
+	width: 20%;
+	height: 100px;
+}
+.home{
+	display:none;
+}
+
+.logo{
+	position:absolute;
+	top:100px;
+	left:100px;
+	width:60%;
+}
+
+.elegi{
+	display:none;
+}
+
+.comprar{
+	display: none;
+}
+.frases{
+	display: none;
+}
+}
+*/
+
+

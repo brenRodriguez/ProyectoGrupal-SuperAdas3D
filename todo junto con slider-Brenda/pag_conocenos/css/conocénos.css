@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Amaranth', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+body {
+	background-image:url(../img/fondo-conocenos.png);
+	height:800px;
+	width: 100%;
+}
+.row  {
+	background:#000000;
+
+
+}
+article {
+	float: left;
+	height: 600px;
+}
+.texto1 .texto2{
+
+}
+
+aside{
+	float: right;
+	height: 600px;
+	
+
+}
+
+strong {
+	color:#6637C5;
+}
+b {
+	color: #4183B6;
+}
+
+
+
