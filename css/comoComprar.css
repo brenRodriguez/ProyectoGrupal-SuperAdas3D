@@ -1,0 +1,363 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--------------HEADER------------------*/
+
+.contenedorHeader{
+	background-image:url(../img/fondo-banner.png);
+	width: 100%;
+	height: 492px;
+	background-repeat:no-repeat;
+	position: relative;
+	font-family: 'Metrophobic', sans-serif;
+	font-size: 18px;
+}	
+.cuenta{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+}
+.carritoImg{
+	position: absolute;
+	top:60px;
+}
+.registro{
+	margin-top: 20px;
+	margin-right: 25px;
+	font-size: 18px;
+}
+
+.lupa{
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.derecha{
+	margin-top: 20px;
+	margin-right: 20px;
+	color: white;
+}
+.menuIzq{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 80px;
+}
+
+.menuDere{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 80px;
+	
+}
+.home{
+	margin-right:20px;
+}
+.comprar{
+	margin-left: 40px;
+}
+
+.elegi{
+	display: inline-block;
+	margin-top: 80px;
+}
+.menu_bar{
+	display: none;
+}
+.menu_bar a span{
+	margin-right: 10px;
+}
+.navPrincipal{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	height: 210px;
+	position: relative;
+}
+.navPrincipal a{
+	text-decoration: none;
+	color: white;
+}
+
+.navPrincipal a:hover{
+	color: #04A1A5;
+}
+.linkHome{
+	margin-right: 50px;
+}
+.logo{
+	margin-bottom: 150px;
+	margin-left: -25px;
+}
+.conocenos{
+	margin-right: 75px;
+}
+
+
+.frases{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.imagenizq{
+	margin-right: 45px;
+	margin-top: -30px;
+}
+
+.contacto {
+    margin-left: 40px;
+}
+
+
+.imagenderecha{
+	   margin-left: 50px;
+}
+
+/***********************FILTRO************************/
+
+span.reference{
+                position:fixed;
+                left:10px;
+                bottom:10px;
+                font-size:11px;
+            }
+            span.reference a{
+                color:#fff;
+                text-decoration:none;
+                /*text-transform: uppercase;*/
+               /* text-shadow:0 1px 0 #000;*/
+            }
+            span.reference a:hover{
+                color:#f0f0f0;
+            }
+
+.sb_wrapper{
+	margin:0;
+	padding:0;
+	position: absolute;
+	top:50px;
+	/*left:650px;*/
+	right:50px;
+	width:372px;
+	font-family: 'Metrophobic', sans-serif;
+	z-index:1;
+}
+
+.sb_wrapper input[type="text"],
+ul.sb_dropdown{
+	border:1px solid  #002245;
+	background: #1F4D80;
+	font-family: 'Metrophobic', sans-serif;
+	color:#fff;
+	padding:2px 0px 6px 20px;
+	width:295px;
+	float:left;
+	margin:3px 0px;
+	z-index:1;
+	
+	
+}
+ul.sb_dropdown{
+	float:left;
+	list-style:none;
+	width:360px;
+	padding:15px 5px;
+	-moz-border-radius:0px 0px 10px 10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+
+}
+ul.sb_dropdown li{
+	font-size:15px;
+	margin-top: 5px;
+	padding-top: 5px;
+	height:28px;
+	float:left;
+	width:50%;
+}
+ul.sb_dropdown li input[type="checkbox"]{
+	float:left;
+	margin:5px 10px 0 5px;
+}
+ul.sb_dropdown li.sb_filter{
+	width:348px;
+	border:1px solid  #002245;
+	clear:both;
+	background: #ddd;
+	font-size:10px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFFFFF;
+	height:16px;
+	line-height:16px;
+	padding:12px;/*
+	-moz-box-shadow:0px 0px 2px #777;
+	-webkit-box-shadow:0px 0px 3px #555 inset;
+	-box-shadow:0px 0px 3px #555 inset;*/
+
+}
+.sb_input{
+	height: 40px;
+}
+.sb_filter{
+	text-align: center;
+	margin-bottom: 0;
+}
+span.sb_up,
+span.sb_down{
+	position:absolute;
+	top:3px;
+	left:0px;
+	width:14px;
+	height:40px;
+	background-color: #002245;
+	background-position:center center;
+	background-repeat: no-repeat;
+	z-index:10;
+	border:1px solid  #002245;/*
+	-moz-box-shadow:1px 0px 1px #002245;
+	-webkit-box-shadow:1px 0px 1px #002245;
+	-box-shadow:1px 0px 1px #002245;*/
+	}
+span.sb_down:hover{
+	background-color: #055191;
+}
+span.sb_up{
+	background-image:url(../icons/up.png);
+}
+span.sb_down{
+	background-image:url(../icons/down.png);
+	background: #002245;
+}
+input.sb_search{
+	background: #002245 url(../icons/search.png) no-repeat center center;
+	height:40px;
+	width:65px;
+	float:left;
+	border:none;
+	margin:3px 0px;
+	border:1px solid #002245;
+	/*-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	-box-shadow:1px 1px 3px #555;*/
+	outline:none;
+	cursor:pointer;
+}
+input.sb_search:hover{
+	background-color:#ffffff; 
+}
+
+
+
+/******************TEXTO PARRAFOS*************************/
+.imgCompra{
+	margin-top: 175px;
+	margin-left: 100px;
+}
+.tituloComoComprar{
+	margin-top: 40px;
+	margin-left: 80px;
+	font-family: 'Metrophobic', sans-serif;
+	color:#04A1A5;
+    font-weight:bold;	
+}
+
+.comoComprar{
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 18px;
+	text-align: justify;
+	width: 365px;
+	color:#6C6B6B;
+	font-family: 'Metrophobic', sans-serif;
+
+}
+.imgPreguntas{
+margin-bottom: 50px;
+margin-left: 100px;
+margin-top: -40px
+}
+
+.tituloPreguntas{
+	margin-top: 50px;
+	margin-left: 80px;
+	color:#04A1A5;
+	font-family: 'Metrophobic', sans-serif;
+	font-weight:bold;
+}
+
+.preguntas{
+	font-size: 18px;
+	margin-left: 80px;
+	margin-top: 20px;
+	text-align: justify;
+	width: 345px;
+	color:#6C6B6B;
+}
+
+
+
+/*----------------ASIDE--------------------*/
+.principal{
+	background-image:url(../img/fondo2.png);
+	width: 100%;
+	/*background-repeat:no-repeat;*/
+
+}
+
+
+aside{
+	background-color: #002245;
+	font-family: 'Metrophobic', sans-serif;
+	font-size: 14px;
+	height: 340px;
+}
+
+.textoMedios{
+	color: #04A1A5;
+	margin: 75px;
+}
+
+.contenedorMedios{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+
+}
+.mercadopago{
+	white:100%;
+}
+
+
+/*******************************FOOTER**************************/
+
+
+footer {
+	background-color:#000000;
+	color: #FFFFFF;
+	font-family: 'Metrophobic', sans-serif;
+	font-size: 18px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+h4 {
+	padding-top: 30px;
+}
+
+.iconos{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+}

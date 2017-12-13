@@ -1,0 +1,107 @@
+body{
+	margin:0;
+	color:#84a4cc;
+	background:#ffffff;
+	font-family: 'Metrophobic', sans-serif;
+	/*background-color: #010310;*/
+	}
+
+
+/*.fondo{
+	 background-repeat:no-repeat;
+}*/
+
+.contenedor-login{
+	margin-top: 30px;
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:580px;
+	position:relative;
+	background-image: url(../img/fondo-login.png); 
+	box-shadow:10px 0px 6px 6px rgba(0,0,0,.10),0 4px 50px 0 rgba(0,0,0,.20);
+}
+.contenido-login{
+	width:100%;
+	height:580px;
+	position:absolute;
+	padding:45px 70px 30px 70px;
+	background:rgba(0, 68, 138, 0.4);
+	margin-left: -15px;
+	font-family: 'Metrophobic', sans-serif;
+	
+}
+
+.contenido-login .sign-in,
+.contenido-login .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.contenido-login .tab,
+.contenido-login .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.contenido-login .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+
+
+.login-form .group{
+	margin-bottom:15px;}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+
+/*para cuadrar el tamano de padin de cada imput*/
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:5px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.2);
+}
+
+.login-form .group .label{
+	color:#04A1A5;
+	font-size:14px;
+	
+
+}
+.login-form .group .button{
+	background:#04A1A5;
+}
+
+.Mensaje{
+
+    border:none;
+	width:300px;
+	height:140px;
+	border-radius:6px;
+	position:relative;
+	display:inline-block;
+    padding: 5px, 5px, 5px, 5px,;
+	background:rgba(255,255,255,.2);
+	font-family: 'Metrophobic', sans-serif;
+}
+
+
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+
